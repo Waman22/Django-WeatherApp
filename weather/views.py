@@ -2,7 +2,7 @@ import requests
 from django.shortcuts import render
 
 def weather_view(request):
-    api_key = "690176a5e6b4f6af317f1f21a595516e"  # Replace with your OpenWeatherMap API key
+    api_key = "your OpenWeatherMap API key"  # Replace with your OpenWeatherMap API key
     weather_data = None
     error = None
 
